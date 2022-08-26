@@ -1,3 +1,40 @@
 * {
     box-sizing: border-box;
+    font-size: 16px;
+    
+}
+
+body {
+    background-color: lightgrey;
+}
+
+g {
+    position: relative;
+  }
+  
+h1 {
+    font-family: "Lucida Handwriting", "Courier New", monospace;
+    position: absolute;
+    font-size: 12rem;
+    top: 5%;
+    left: 30%;
+    width: 100%;
+    margin-top: -50px; /* Half the height */
+    margin-left: -600px;
+    color: aqua;
+}
+
+.navbar {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline;
+    font-size: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: lightgray;
 }
